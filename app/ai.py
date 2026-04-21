@@ -43,7 +43,7 @@ Question: {question}
 Return ONLY SQL (no explanation).
 """
 
-        model = genai.GenerativeModel("gemini-1.5-flash-latest")
+        model = genai.GenerativeModel("gemini-1.5-flash")
 
         response = model.generate_content(prompt)
 
@@ -80,7 +80,7 @@ Instructions:
 - Keep it simple and clear
 """
 
-        model = genai.GenerativeModel("gemini-1.5-flash-latest")
+        model = genai.GenerativeModel("gemini-1.5-flash")
 
         response = model.generate_content(prompt)
 
